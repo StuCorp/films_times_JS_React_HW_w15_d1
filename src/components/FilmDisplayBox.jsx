@@ -1,5 +1,6 @@
 import React from 'react'
 import FilmList from './FilmList.jsx'
+import Header from './Header.jsx'
 
 export default class FilmDisplayBox extends React.Component {
 
@@ -26,6 +27,7 @@ export default class FilmDisplayBox extends React.Component {
   render(){
     return (
       <div className="film-display-box">
+      <Header title="TOP PArt"/>
         <h2>Films opening this weekend</h2>
         <FilmList data={this.state.data} />
       </div>

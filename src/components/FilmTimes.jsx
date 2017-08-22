@@ -13,6 +13,7 @@ export default class FilmTimes extends React.Component {
     return(
 
         <div className="times-list">
+        <h5>Times:</h5>
         {timeNodes}
         </div>
       )

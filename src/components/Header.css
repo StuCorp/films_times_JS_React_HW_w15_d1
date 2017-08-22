@@ -1,0 +1,7 @@
+#header-text {
+  color: hotpink;
+}
+
+#header-text:hover {
+  color: blue;
+}
